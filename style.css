@@ -1,0 +1,162 @@
+/* Generales */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(244, 244, 244);
+    color: rgb(51, 51, 51);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Encabezado */
+.cabecera {
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.cabecera h1 {
+    margin: 0;
+}
+
+/* Navegación */
+.menu-principal {
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 0.5rem 0;
+}
+
+.menu-principal ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-principal ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu-principal ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+.menu-principal ul li a:hover {
+    background-color: rgb(85, 85, 85);
+}
+
+/* Contenido principal */
+.contenido {
+    margin-top: 20px;
+}
+
+.articulos-principales {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.articulo {
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.articulo h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: rgba(230, 20, 20, 0.863);
+}
+
+.articulo time {
+    font-style: italic;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.articulo p {
+    line-height: 1.8;
+}
+
+.articulo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Barra lateral */
+.info-adicional {
+    background: rgb(244, 244, 244);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.info-adicional h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.info-adicional p {
+    line-height: 1.6;
+}
+
+/* Pie de página */
+.pie-de-pagina {
+    background: rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px 0;
+}
+
+.seccion-pie {
+    margin-bottom: 20px;
+}
+
+.seccion-pie h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.seccion-pie p,
+.seccion-pie address,
+.seccion-pie small {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.seccion-pie a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.seccion-pie a:hover {
+    text-decoration: underline;
+}
+
+/* Enlaces Footer */
+.seccionpie a {
+    color: rgb(211, 88, 16); 
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.seccionpie a:hover {
+    color: rgb(255, 255, 255); 
+    text-decoration: underline;                             /* Subrayado al hover */
+}
